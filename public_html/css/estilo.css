@@ -1,0 +1,57 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+   font-family: "Helvetica";
+   font-size: 0.9em;
+}
+#principal{
+    display: flex;
+}
+nav{
+    background: #a9a9a9;
+    width: 12vw;
+    height: 100vh;
+       
+    padding: 2em;
+}
+nav ul{
+    list-style: none;
+}
+nav ul li a{
+   color: #555;
+   text-decoration: none;
+   
+   background: #fff;
+   line-height: 2em;
+   padding: 0.3em 0.5em;
+   display: block;
+   margin-bottom: 0.5em;
+   
+   border-radius: 0.3em;
+}
+article{
+    padding: 2em;
+}
+label{
+    display: block;
+}
+input[type="text"],
+input[type="number"]{
+    padding: 0.5em;
+    margin-bottom: 1em;
+}
+input[type="text"]{
+    width: 30em;
+}
+input[type="submit"],
+input[type="button"]{
+    padding: 0.5em;
+}
+.requerido{
+    border: 1px solid #b00;
+}
+#resultados{
+    margin-top: 2em;
+}

@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Prova 2 - Leandro Guilherme da Silva</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        
+        <link href="css/estilo.css" rel="stylesheet" />
+        
+        <script src="js/global.js" type="text/javascript" defer></script>
+    </head>
+    <body>
+        <section id="principal">
+            <nav>
+                <ul>
+                    <li><a href="index.html">Novo</a></li>
+                    <li><a href="outra.html">Outra</a></li>
+                </ul>
+            </nav>
+            <article>
+                <div>
+                    <label>ISBN</label>
+                    <input type="text" id="isbn" class="requerido" required />
+                </div>
+                <div>    
+                    <label>Título</label>
+                    <input type="text" id="titulo" class="requerido" required />
+                </div>
+                <div>
+                    <label>Autor</label>
+                    <input type="text" id="autor" />
+                </div>
+                <div>
+                    <label>Editora</label>
+                    <input type="text" id="editora" />
+                </div>
+                <div>
+                    <label>Ano</label>
+                    <input type="number" id="ano" />
+                </div>
+                <div>
+                    <label>Quantidade</label>
+                    <input type="number" id="quantidade" class="requerido" required />
+                </div>
+                <div>
+                    <input type="button" name="salvar" id="btnSalvar" value="Salvar" />
+                    <input type="button" name="resultados" id="btnResultados" value="Resultados" />
+                </div>  
+                <div id="resultados"></div>
+            </article>
+        </section>
+    </body>
+</html>
